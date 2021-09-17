@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "name": "Link",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "owner": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "links"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

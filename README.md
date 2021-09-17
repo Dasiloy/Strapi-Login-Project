@@ -1,2 +1,3 @@
-# Strapi-Login-Project
-A simple login project on strapi 
+# Strapi application
+
+A quick description of your strapi application
